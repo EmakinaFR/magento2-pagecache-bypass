@@ -1,0 +1,40 @@
+{
+    "name": "emakinafr/magento2-pagecache-bypass",
+    "type": "magento2-module",
+    "description": "A lightweight module to allow bypassing the built-in page cache with an HTTP parameter.",
+    "keywords": [
+        "magento",
+        "magento2",
+        "pagecache",
+        "cache",
+        "blackfire"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexandre Jardin",
+            "email": "aja@emakina.fr"
+        }
+    ],
+    "require": {
+        "magento/framework": "^102.0",
+        "magento/magento-composer-installer": "*"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "Emakina\\PageCacheBypass\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    },
+    "repositories": {
+        "magento": {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    }
+}

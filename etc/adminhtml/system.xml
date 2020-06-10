@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="dev">
+            <group id="emakina_pagecache_bypass" translate="label" type="text" sortOrder="200" showInDefault="1" showInWebsite="0" showInStore="0">
+                <label>PageCache Bypass by Emakina</label>
+                <field id="parameter_name" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Parameter Name</label>
+                    <comment>Name of the HTTP parameter used to bypass the built-in page cache.</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

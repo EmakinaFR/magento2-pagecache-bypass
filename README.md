@@ -1,6 +1,6 @@
 Magento - PageCache Bypass
 ==========================
-![Magento version](https://img.shields.io/badge/Magento-2.3.x-orange?style=for-the-badge)
+![Magento version](https://img.shields.io/badge/Magento-&gt;=%202.3.x-orange?style=for-the-badge)
 ![MIT License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 ![Made by Emakina](https://img.shields.io/badge/Made%20by-EMAKINA-black?style=for-the-badge)
 
